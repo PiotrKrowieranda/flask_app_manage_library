@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tytul</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<form method="POST">
+    <label>
+        nazwa książki:
+        <input type="text"
+               name="name"
+               id="name">
+    </label>
+    <br>
+    <label>
+        description:
+        <input type="text"
+               name="description"
+               id="description">
+    </label>
+    <br>
+    <label>
+        ISBN:
+        <input type="text"
+               name="ISBN"
+               id="ISBN">
+    </label>
+    <br>
+    <br>
+    <label>
+        <button type="submit">
+            submit
+        </button>
+    </label>
+</form>
+</body>
+</html>

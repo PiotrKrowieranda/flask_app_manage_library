@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <!-- Klient -->
+    <div class="client-form">
+        <form method="post" action="#">
+            <label>Name</label><br>
+            <input name="first_name" type="text" maxlength="255" value=""><br>
+            <label>Last Name</label><br>
+            <input name="last_name" type="text" maxlength="255" value=""><br>
+            <button type="submit" name="submit" value="client">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
+
